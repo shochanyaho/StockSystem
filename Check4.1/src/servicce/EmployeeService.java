@@ -57,7 +57,7 @@ public class EmployeeService {
  connection = DriverManager.getConnection(JDBC_CONNECTION, USER, PASS);
  statement = connection.createStatement();
 
- /* shoutaro 7 61~73,94,100もとりあえずいらないかも。。。*/
+ /* shoutaro 7 61~73,94,100もとりあえずいらないかも。。。 ＋  IDを商品名、コメントを在庫数に変更*/
   // 処理が流れた時間をフォーマットに合わせて生成
  Calendar cal = Calendar.getInstance();
  SimpleDateFormat sdFormat = new SimpleDateFormat(TIME_FORMAT);
